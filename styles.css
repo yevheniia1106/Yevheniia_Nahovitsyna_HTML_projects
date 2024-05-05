@@ -18,15 +18,32 @@ h3   {color: rgb(52, 115, 139);
   font-family: 'Verdana', 'Arial', sans-serif;
   font-size: 18px;}
 
-div  {width: 500px;
+div  {width: 450px;
   margin-left: auto;
   margin-right: auto;
-  padding: 30;
-  background-color: #ffffff;
+  padding: 20;
+  background-color: rgb(183, 194, 140);
   }
 
+/*div1  {width: 450px;
+  margin: 0 auto;
+    }*/
+div1 ul {
+    display: table;
+    margin: 0 auto;
+    font-family: 'Verdana', 'Arial', sans-serif;
+    text-align: left
+}
+div1 ol {
+    display: table;
+    margin: 0 auto;
+    font-family: 'Verdana', 'Arial', sans-serif;
+    text-align: left
+}
+
 img  {margin: 10;
-  box-shadow: 0px 0px 15px 5px #ffffff;
+  /*box-shadow: 0px 0px 15px 5px #ffffff;*/
+  border: 5px solid white;
   }
 
 figcaption  
@@ -35,15 +52,6 @@ figcaption
   font-size: 14px;
   font-style: italic;}
 
-ol   {margin-left: 200px;
-  margin-right: auto;
-  font-family: 'Verdana', 'Arial', sans-serif;
-  text-align: left}
-
-ul   {margin-left: 200px;
-  margin-right: auto;
-  font-family: 'Verdana', 'Arial', sans-serif;
-  text-align: left}
 
 fieldset 
  {font-family: 'Verdana', 'Arial', sans-serif;
