@@ -1,6 +1,67 @@
-body {background-color: rgb(208, 216, 172); 
+body {background-color: rgb(213, 224, 168);
   margin-left: auto;
   margin-right: auto;
   text-align: center}
-h1   {color: rgb(66, 66, 107);}
-p    {color: rgb(209, 110, 110);}
+
+h1   {color: rgb(52, 115, 139); 
+  font-family: 'Verdana', 'Arial', sans-serif;
+  font-size: 30px;}
+
+p    {font-family: 'Verdana', 'Arial', sans-serif;
+  font-size: 14px;}
+
+h2   {color: rgb(52, 115, 139); 
+  font-family: 'Verdana', 'Arial', sans-serif;
+  font-size: 24px;}
+
+h3   {color: rgb(52, 115, 139); 
+  font-family: 'Verdana', 'Arial', sans-serif;
+  font-size: 18px;}
+
+div  {width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30;
+  background-color: #ffffff;
+  }
+
+img  {margin: 10;
+  box-shadow: 0px 0px 15px 5px #ffffff;
+  }
+
+figcaption  
+ {font-family: 'Verdana', 'Arial',  sans-serif; 
+  line-height: 25px;
+  font-size: 14px;
+  font-style: italic;}
+
+ol   {margin-left: 200px;
+  margin-right: auto;
+  font-family: 'Verdana', 'Arial', sans-serif;
+  text-align: left}
+
+ul   {margin-left: 200px;
+  margin-right: auto;
+  font-family: 'Verdana', 'Arial', sans-serif;
+  text-align: left}
+
+fieldset 
+ {font-family: 'Verdana', 'Arial', sans-serif;
+  font-size: 14px;
+  margin: 20px;
+  background-color: #ededed;
+  color: rgb(52, 115, 139);
+  padding: 20px}
+
+legend 
+ {font-size: 14px;
+  color: #ffffff;
+  background-color: rgb(52, 115, 139);
+  font-weight: bold;}
+
+button 
+ {background-color: rgb(52, 115, 139);
+  color: #ffffff;}
+
+input {color: rgb(52, 115, 139);
+  }
