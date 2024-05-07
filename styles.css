@@ -1,4 +1,4 @@
-body {background-color: rgb(213, 224, 168);
+/* body {background-color: rgb(213, 224, 168);
   margin-left: auto;
   margin-right: auto;
   text-align: center}
@@ -27,7 +27,7 @@ div  {width: 450px;
 
 /*div1  {width: 450px;
   margin: 0 auto;
-    }*/
+    }
 div1 ul {
     display: table;
     margin: 0 auto;
@@ -42,7 +42,7 @@ div1 ol {
 }
 
 img  {margin: 10;
-  /*box-shadow: 0px 0px 15px 5px #ffffff;*/
+  /*box-shadow: 0px 0px 15px 5px #ffffff;
   border: 5px solid white;
   }
 
@@ -72,4 +72,43 @@ button
   color: #ffffff;}
 
 input {color: rgb(52, 115, 139);
-  }
+  } */
+
+/* CSS styles */
+h1   {color: rgb(52, 115, 139); 
+  font-family: 'Verdana', 'Arial', sans-serif;
+  font-size: 30px;}
+
+p   {color: rgb(52, 115, 139); 
+  font-family: 'Verdana', 'Arial', sans-serif;
+  font-size: 14px;}
+
+input {
+  width: 120px;}
+
+.container {
+  background-color: rgb(183, 194, 140);
+  padding: 30px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 4px;}
+
+#block {
+  float: left;
+  display: block;
+  padding 20px 20px 50px 20px;
+  width: 300px;
+  margin: 10px;
+  border: 2px solid grey;
+  background-color: white;
+  text-align: center;}
+
+button {  
+  width: 60px;
+  margin: 20px 10px 5px 10px;}
+
+button.reset {  
+  margin: 10px 10px 20px 10px;
+  background-color: #f72056;
+  color: white;}
+
