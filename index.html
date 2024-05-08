@@ -1,33 +1,80 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>HTML CSS JS</title>
+    <meta charset="UTF-8">
+    <title>HTML CSS JS</title>
+    <link rel="stylesheet" href="styles.css">
+
 </head>
 <body>
   <div class="container">
+<!SUM>
     <div id="block">
-      <h1 id="welcome">Сalculating <br> the sum</h1>
+      <h1 id="welcome">Calculating <br> the sum</h1>
       <fieldset>
-        <p>Input two numbers</p>
-        <input id="a" type="number" placeholder="first number" required>
-        <input id="b" type="number" placeholder="second number" required>
+        <p>Input two numbers:</p>
+        <input id="a1" type="number" placeholder="first number" required>
+        <input id="b1" type="number" placeholder="second number" required>
 
-        <p>Input the estimated sum</p>
+        <p>Input the estimated sum:</p>
         <input id="sum" type="number" placeholder="estimated sum" required>
         <br>
       </fieldset>
-  <button type="check">Check</button><br>
 
-      <button class="reset" type="reset">Reset</button>
- 
-    
-    </div>
-      
-      <div id="block">
-
+      <div id="block1">
+        <p id="message1">Сheck yourself!<br> When you are ready push on button!</p><br>
       </div>
 
+      <button id="check1" type="check">Check</button><br>
+      <button id="reset1" type="reset">Reset</button>
+    </div>
+      
+<!SUB>
+    <div id="block">
+      <h1 id="welcome">Calculating <br> the sub</h1>
+      <fieldset>
+        <p>Input two numbers:</p>
+        <input id="a2" type="number" placeholder="first number" required>
+        <input id="b2" type="number" placeholder="second number" required>
+
+        <p>Input the estimated sub:</p>
+        <input id="sub" type="number" placeholder="estimated sub" required>
+        <br>
+      </fieldset>
+
+      <div id="block1">
+        <p id="message2">Сheck yourself!<br> When you are ready push on button!</p><br>
+      </div>
+
+      <button id="check2" type="check">Check</button><br>
+      <button id="reset2" type="reset">Reset</button>
+    </div>
+    
+<!MULT>
+    <div id="block">
+      <h1 id="welcome">Calculating <br> the mult</h1>
+      <fieldset>
+        <p>Input two numbers:</p>
+        <input id="a3" type="number" placeholder="first number" required>
+        <input id="b3" type="number" placeholder="second number" required>
+
+        <p>Input the estimated sub:</p>
+        <input id="mult" type="number" placeholder="estimated mult" required>
+        <br>
+      </fieldset>
+
+      <div id="block1">
+        <p id="message3">Сheck yourself!<br> When you are ready push on button!</p><br>
+      </div>
+
+      <button id="check3" type="check">Check</button><br>
+      <button id="reset3" type="reset">Reset</button>
+    </div>
+    
+
   </div>
-  
-  </body>
+
+
+  <script src="script.js"></script>
+</body>
 </html>
