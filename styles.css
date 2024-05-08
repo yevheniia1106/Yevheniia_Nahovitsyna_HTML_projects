@@ -3,14 +3,19 @@ h1   {color: rgb(52, 115, 139);
   font-family: 'Verdana', 'Arial', sans-serif;
   font-size: 30px;}
 
-p   {color: rgb(52, 115, 139); 
+p   {color: black; 
   font-family: 'Verdana', 'Arial', sans-serif;
-  font-size: 14px;}
+  font-size: 14px;
+  line-height: 22px;
+  margin: 10px;
+
+}
 
 input {
   width: 120px;}
 
 .container {
+  width: 650px;
   background-color: rgb(183, 194, 140);
   padding: 30px;
   display: grid;
@@ -22,17 +27,25 @@ input {
   display: block;
   padding 20px 20px 50px 20px;
   width: 300px;
+  height: 420px;
   margin: 10px;
   border: 2px solid grey;
   background-color: white;
   text-align: center;}
 
+#block1 {
+  height: 75px;}
+
 button {  
   width: 60px;
-  margin: 20px 10px 5px 10px;}
+  margin: 0px 10px 5px 10px;}
 
-button.reset {  
+#reset1, #reset2, #reset3 {  
   margin: 10px 10px 20px 10px;
   background-color: #f72056;
   color: white;}
 
+#message {  
+  }
+
+fieldset {border: 1px solid grey;}
