@@ -1,7 +1,7 @@
 /* CSS styles */
 h1   {color: rgb(52, 115, 139); 
   font-family: 'Verdana', 'Arial', sans-serif;
-  font-size: 30px;}
+  font-size: 24px;}
 
 p   {color: black; 
   font-family: 'Verdana', 'Arial', sans-serif;
@@ -12,7 +12,7 @@ p   {color: black;
 }
 
 input {
-  width: 120px;}
+  width: 100px;}
 
 .container {
   width: 650px;
@@ -27,25 +27,26 @@ input {
   display: block;
   padding 20px 20px 50px 20px;
   width: 300px;
-  height: 420px;
+  height: 400px;
   margin: 10px;
   border: 2px solid grey;
   background-color: white;
   text-align: center;}
 
 #block1 {
-  height: 75px;}
+  height: 65px;}
 
 button {  
   width: 60px;
   margin: 0px 10px 5px 10px;}
 
-#reset1, #reset2, #reset3 {  
+#check4 {
+  margin: 0px 10px 0px 10px;
+}
+
+#reset1, #reset2, #reset3, #reset4 {  
   margin: 10px 10px 20px 10px;
   background-color: #f72056;
   color: white;}
-
-#message {  
-  }
 
 fieldset {border: 1px solid grey;}
