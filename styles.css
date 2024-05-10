@@ -12,13 +12,13 @@ p   {color: black;
   font-size: 14px;
   line-height: 22px;
   margin: 10px;
-
 }
 
 input {
   width: 100px;}
 
 .container {
+  margin: 0 auto;
   width: 650px;
   background-color: rgb(183, 194, 140);
   padding: 30px;
