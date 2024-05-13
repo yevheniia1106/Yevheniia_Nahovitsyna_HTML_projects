@@ -44,7 +44,7 @@ function f1(){
       document.getElementById("message").innerHTML = "Wrong :(<br>Try again!"
       }
     }
-} //end of f41
+} //end of f1
   
 function f2(){
   document.getElementById("a").value = ""
