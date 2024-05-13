@@ -43,11 +43,11 @@ button {
   width: 60px;
   margin: 0px 10px 5px 10px;}
 
-#check4 {
+#check {
   margin: 0px 10px 0px 10px;
 }
 
-#reset1, #reset2, #reset3, #reset4 {  
+#reset {  
   margin: 10px 10px 20px 10px;
   background-color: #f72056;
   color: white;}
