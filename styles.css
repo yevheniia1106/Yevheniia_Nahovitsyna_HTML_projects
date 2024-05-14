@@ -23,7 +23,8 @@ input {
   padding: 30px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 4px;}
+  grid-gap: 4px;
+  text-align: center;}
 
 #block {
   float: left;
