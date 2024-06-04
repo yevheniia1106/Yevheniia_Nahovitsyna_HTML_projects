@@ -58,5 +58,6 @@ function f2(){
   document.getElementById("oper").value = "define"
   document.getElementById("message").style.color = "black"
   document.getElementById("message").innerHTML = "Сheck yourself!<br> When you are ready push on button!"
+  document.getElementById("check").setAttribute("disabled")
 }  
     
