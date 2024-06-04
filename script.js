@@ -19,7 +19,7 @@ function checkall(){
   let oper = select.value // получаем значение выбранного элемента
   if (Number.isInteger(a) && Number.isInteger(b)
   && Number.isInteger(estim) && oper != "define")
-  {document.getElementById("check").removeAttribute("disabled", "")
+  {document.getElementById("check").removeAttribute("disabled")
   }
 }
 
